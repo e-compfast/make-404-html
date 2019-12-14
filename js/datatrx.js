@@ -1,4 +1,5 @@
-var dataSales = {
+//<![CDATA[
+   var dataSales = {
         "Erna Wati": {
             "screenshotURL": "https://e-compfast.github.io/make-404-html/trx/trx-ibu-erna.png",
             "avatarURL": "https://e-compfast.github.io/make-404-html/trx/bu-erna.jpg",
@@ -15,3 +16,4 @@ var dataSales = {
         },
         
     };
+    //]]>
