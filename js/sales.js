@@ -23,7 +23,7 @@ if(typeof jQuery=='undefined') {
   var headTag = document.getElementsByTagName("head")[0];
   var loadJQUERY = document.createElement('script');
   loadJQUERY.type = 'text/javascript';
-  loadJQUERY.src = 'js/jquery.min.js';
+  loadJQUERY.src = 'https://e-compfast.github.io/make-404-html/js/jquery.min.js';
   loadJQUERY.onload = myJQUERY;
   headTag.appendChild(loadJQUERY);
 }
