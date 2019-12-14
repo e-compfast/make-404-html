@@ -1,7 +1,4 @@
-/*
-LiveSales-Static-Widget
-( c ) 2019 by. SEOTemplate.web.id
-*/
+
 
 function load_css_head(posting) {
 var inject_link = document.createElement('link');
