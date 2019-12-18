@@ -22,7 +22,7 @@
             "time": "2019-09-14",
             "productName": "Membeli 1 Box Jamu Tetes Labdawara",
             "productURL": "https://www.facebook.com/labdawaraindonesia",
-        },
+        }
         
     };
     //]]>
