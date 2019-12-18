@@ -19,7 +19,7 @@
         "Roy Wati": {
             "screenshotURL": "https://e-compfast.github.io/make-404-html/trx/trx-roy-wati.png",
             "avatarURL": "https://e-compfast.github.io/make-404-html/trx/bu-roy.jpg",
-            "time": "2018-09-14",
+            "time": "2019-09-14",
             "productName": "Membeli 1 Box Jamu Tetes Labdawara",
             "productURL": "https://www.facebook.com/labdawaraindonesia",
         },
