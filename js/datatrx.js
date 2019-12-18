@@ -5,7 +5,7 @@
             "avatarURL": "https://e-compfast.github.io/make-404-html/trx/bu-erna.jpg",
             "time": "2019-10-14",
             "productName": "Membeli 1 Box Jamu Tetes Labdawara",
-            "productURL": "/",
+            "productURL": "https://www.facebook.com/labdawaraindonesia",
         },
 
         "Revan": {
@@ -13,7 +13,7 @@
             "avatarURL": "https://e-compfast.github.io/make-404-html/trx/bp-revan.jpg",
             "time": "2018-08-23",
             "productName": "Menjadi Member PT.Jokam Sembilan Sembilan",
-            "productURL": "/",
+            "productURL": "https://www.facebook.com/labdawaraindonesia",
         },
 
         "Roy Wati": {
@@ -21,7 +21,7 @@
             "avatarURL": "https://e-compfast.github.io/make-404-html/trx/bu-roy.jpg",
             "time": "2018-09-14",
             "productName": "Membeli 1 Box Jamu Tetes Labdawara",
-            "productURL": "/",
+            "productURL": "https://www.facebook.com/labdawaraindonesia",
         },
         
     };
