@@ -1,4 +1,4 @@
 
-var twLSN = ['e-compfast.blogspot.com', 'e-compfastdigital.blogspot.com'];
+var twLSN = ['e-compfast.blogspot.com','e-compfastdigital.blogspot.com'];
 var redirectURL = 'bit.ly/redirect-eurl';
 function cekLSN(value,arr){ var status = false; for(var i=0; i<arr.length; i++){ var name = arr[i]; if(name == value){ status = true; break; } } return status; } var hst = window.location.hostname; if(cekLSN(hst, twLSN) == false) { window.location.href = redirectURL; }
