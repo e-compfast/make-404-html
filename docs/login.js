@@ -136,3 +136,9 @@
   }()); 
   };
   
+  var str = $(".tagslist__link").text();
+  var cek = "Premium";
+  var premi = str.includes(cek);
+    if(premi){
+     initLogin();
+    }
