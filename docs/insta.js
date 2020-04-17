@@ -9,8 +9,8 @@
 		'get_raw_json': false,
 		'callback': null,
 		'styling': true,
-		'items': 8,
-		'items_per_row': 4,
+		'items': 16,
+		'items_per_row': 2,
 		'margin': 0.5
 	};
 	$.instagramFeed = function(options){
@@ -120,7 +120,7 @@
             'get_raw_json': false,
             'callback': null,
             'styling': true,
-            'items': 8,
+            'items': 16,
             'items_per_row': 4,
             'margin': 1 
         });
