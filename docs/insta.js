@@ -110,7 +110,7 @@
         $.instagramFeed({
             'username': 'hijabwanitacantik',
             'container': "#box-insta",
-            'display_profile': false,
+            'display_profile': true,
             'display_biography': false,
             'display_gallery': true,
             'get_raw_json': false,
