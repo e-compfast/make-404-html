@@ -83,7 +83,7 @@
 			
 			if(options.display_gallery){
 				if(data.is_private){
-					html += "<h1 class='box flx'><strong>This profile is private</strong></h1>";
+					html += "<h1 style='text-align:center; font-size: 1rem'><strong>This profile is private</strong></h1>";
 				}else{
 					var imgs = data.edge_owner_to_timeline_media.edges;
 						max = (imgs.length > options.items) ? options.items : imgs.length;
@@ -108,7 +108,7 @@
 (function($){
     $(window).on('load', function(){
         $.instagramFeed({
-            'username': 'alamhafidz61',
+            'username': 'hijabwanitacantik',
             'container': "#box-insta",
             'display_profile': false,
             'display_biography': false,
