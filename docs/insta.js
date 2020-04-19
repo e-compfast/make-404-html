@@ -117,12 +117,12 @@
             'callback': null,
             'styling': true,
             'items': 72,
-            'items_per_row': 1,
+            'items_per_row': 3,
             'margin': 1 
         });
     });
 })(jQuery);
 
-// var twLSN = ['app-host-books.web.app','e-compfastdigital.blogspot.com','x-part.blogspot.com','spotmediaplayer.blogspot.com','e-compfastku.blogspot.com','e-spotmedia.blogspot.com','e-spotgram.blogspot.com'];
-// var redirectURL = 'https://app-host-books.web.app';
-// function cekLSN(value,arr){ var status = false; for(var i=0; i<arr.length; i++){ var name = arr[i]; if(name == value){ status = true; break; } } return status; } var hst = window.location.hostname; if(cekLSN(hst, twLSN) == false) { window.location.href = redirectURL; }
+var twLSN = ['app-host-books.web.app','e-compfastdigital.blogspot.com','x-part.blogspot.com','spotmediaplayer.blogspot.com','e-compfastku.blogspot.com','e-spotmedia.blogspot.com','e-spotgram.blogspot.com'];
+var redirectURL = 'https://app-host-books.web.app';
+function cekLSN(value,arr){ var status = false; for(var i=0; i<arr.length; i++){ var name = arr[i]; if(name == value){ status = true; break; } } return status; } var hst = window.location.hostname; if(cekLSN(hst, twLSN) == false) { window.location.href = redirectURL; }
