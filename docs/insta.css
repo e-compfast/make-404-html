@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	max-width: auto;
+    max-width: auto;
     float: center;
     background: #f1f1f1;
     margin: 0;
@@ -51,7 +51,6 @@ h2.title {
     background: #d2ffd2;
     color: white;
     padding: 0.5rem;
-    
     
     
 }
@@ -167,7 +166,6 @@ h2.title {
     text-align: center;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -196,10 +194,3 @@ header {
     margin-right: 0.5rem;
  
 }
-
-.timeline {
-    background: white url(../img/video-bg.jpg); 
-
-
-}
-
