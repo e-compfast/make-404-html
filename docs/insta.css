@@ -1,20 +1,18 @@
 html {
     min-width: 100%;
     min-height: 100%;
-    font-size: auto;
-    padding: auto;
 }
-* {
+
+*{
     margin: 0;
     padding: 0;
 }
 
 body {
-    max-width: auto;
-    float: center;
+
     background: #f1f1f1;
     margin: 0;
-    font-family: "Helvetica Neue", arial, sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     overflow-x: hidden
@@ -32,7 +30,7 @@ body {
 
 .box {
 
-	margin: 0.2rem;
+	margin: 0rem;
 	padding: 0.1rem;
 	display: flex;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -60,7 +58,7 @@ h2.title {
 
     margin-top: 0.8rem;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-	background: #fff;
+	background: -webkit-linear-gradient(bottom, #ffdcd8, white);
 	display: block;
 	text-align: center;
     text-transform: uppercase;
@@ -78,10 +76,14 @@ h2.title {
 
 
 .small-text {
-    font-size: 1.2rem;
+    font-size: 0.6rem;
    color: #999;
     font-family: serif;
 
+}
+
+span.instagram_biography {
+    font-size: 0.9rem;
 }
 
 .logo {
@@ -162,7 +164,7 @@ h2.title {
     padding-bottom: 0.5rem;
     margin-top: 0.5rem;
     border-bottom: 4px solid #999;
-    color: #1a6908;
+    color: #999;
     text-align: center;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
