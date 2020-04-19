@@ -9,8 +9,8 @@
 		'get_raw_json': false,
 		'callback': null,
 		'styling': true,
-		'items': 16,
-		'items_per_row': 2,
+		'items': 8,
+		'items_per_row': 4,
 		'margin': 0.5
 	};
 	$.instagramFeed = function(options){
@@ -71,22 +71,19 @@
 			
 			var html = "";
 			if(options.display_profile){
-				html += "<div class='instagram_profile'" +styles.profile_container +">";
-				html += "	<img class='instagram_profile_image' src='"+ data.profile_pic_url +"' alt='"+ options.username +" profile pic'"+ styles.profile_image +" />";
-				html += "	<p class='instagram_username'"+ styles.profile_name +">@"+ data.full_name +" (<a href='https://www.instagram.com/"+ options.username +"'>@"+options.username+"</a>)</p>";
+				html += "	<div class='container'><div class='box'><div class='green'><img class='logo' src='"+ data.profile_pic_url +"' alt='"+ options.username +" profile pic'"+ styles.profile_image +" /></div>";
+				html += "	<div class='data'><h1 class='bisnisTitle'>@"+ data.full_name +"</h1>";
 			}
 			
 			if(options.display_biography){
-				html += "	<p class='instagram_biography'"+ styles.profile_biography +">"+ data.biography +"</p>";
+				html += "	<span class='instagram_biography'>"+ data.biography +"</span> <div class='data'><div class='view-profile'> <div class='data-profile'> <a class='btn' href='#' id='btn-wa' ><i class='fab fa-facebook-f'> Facebook</i></a> <a class='btn' href='#' id='btn-wa' ><i class='fab fa-instagram'> Instagram</i></a> </div> </div></div </div></div>";
 			}
 			
-			if(options.display_profile){
-				html += "</div>";
-			}
+			
 			
 			if(options.display_gallery){
 				if(data.is_private){
-					html += "<p class='instagram_private'><strong>This profile is private</strong></p>";
+					html += "<h1 class='box flx'><strong>This profile is private</strong></h1>";
 				}else{
 					var imgs = data.edge_owner_to_timeline_media.edges;
 						max = (imgs.length > options.items) ? options.items : imgs.length;
@@ -108,11 +105,10 @@
 })(jQuery);
 
 
-
 (function($){
     $(window).on('load', function(){
         $.instagramFeed({
-            'username': 'hijabwanitacantik',
+            'username': 'alamhafidz61',
             'container': "#box-insta",
             'display_profile': false,
             'display_biography': false,
@@ -121,7 +117,7 @@
             'callback': null,
             'styling': true,
             'items': 72,
-            'items_per_row': 1,
+            'items_per_row': 4,
             'margin': 1 
         });
     });
