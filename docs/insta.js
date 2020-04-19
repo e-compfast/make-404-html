@@ -72,7 +72,7 @@
 			var html = "";
 			if(options.display_profile){
 				html += "	<div class='container'><div class='box'><div class='green'><img class='logo' src='"+ data.profile_pic_url +"' alt='"+ options.username +" profile pic'/></div>";
-				html += "	<div class='data'><h1 class='bisnisTitle'><data:blog.title/></h1>";
+				html += "	<div class='data'><h1 class='bisnisTitle'>+"+"<"+data:blog.title+"/>"+"</h1>";
 			}
 			
 			if(options.display_biography){
@@ -88,14 +88,14 @@
 					var imgs = data.edge_owner_to_timeline_media.edges;
 						max = (imgs.length > options.items) ? options.items : imgs.length;
 					
-					html += "<div class='title_head'><h1 class='katalog'>BEST SELLER</h1></div><div class='box flx'><div class='instagram_gallery'>";
+					html += "<div class='container'><div class='title_head'><h1 class='katalog'>BEST SELLER</h1></div></div> <div class='box flx'><div class='instagram_gallery'>";
 					for(var i = 0; i < max; i++){
 						var url = "https://www.instagram.com/p/"+ imgs[i].node.shortcode;
 						html += "<a href='"+url+"' target='_blank'>";
 						html += "	<img src='"+ imgs[i].node.thumbnail_src +"' alt='"+ options.username +" instagram image "+ i+"'"+styles.gallery_image+" />";
 						html += "</a>";
 					}
-					html += "</div></div><div class='footer'><div class='data'><p class='small-text'><data:blog.title/> 2020</p></div></div></div>";
+					html += "</div></div><div class='container'><div class='footer'><div class='data'><p class='small-text'>"+"<"+data:blog.title+"/>"+"2020</p></div></div></div>";
 				}
 			}
 			$(options.container).html(html);
