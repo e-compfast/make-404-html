@@ -62,17 +62,17 @@
 			if(options.styling){
 				styles.profile_container = " style='text-align:center;'";
 				styles.profile_image = " style='border-radius:10em;width:15%;max-width:125px;min-width:50px;'";
-				styles.profile_name = " style='font-size:1.2em;'";
+				styles.profile_name = " style='font-size:1.2em; text-transform:uppercase;'";
 				styles.profile_biography = " style='font-size:1em;'";
 				var width = (100 - options.margin * 2 * options.items_per_row)/options.items_per_row;
-				styles.gallery_image = " style='margin:"+options.margin+"% "+options.margin+"%;width:"+width+"%;float:left;'";
+				styles.gallery_image = " style='margin:"+options.margin+"% "+options.margin+"%;width:"+width+"%;float:left; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5)'";
 				
 			}
 			
 			var html = "";
 			if(options.display_profile){
 				html += "	<div class='container'><div class='box'><div class='green'><img class='logo' src='"+ data.profile_pic_url +"' alt='"+ options.username +" profile pic'/></div>";
-				html += "	<div class='data'><h1 class='bisnisTitle'>+"+ data.full_name +"</h1>";
+				html += "	<div class='data'><h1 class='bisnisTitle +"styles.profile_name+"'>+"+ data.full_name +"+</h1>";
 			}
 			
 			if(options.display_biography){
@@ -95,7 +95,7 @@
 						html += "	<img src='"+ imgs[i].node.thumbnail_src +"' alt='"+ options.username +" instagram image "+ i+"'"+styles.gallery_image+" />";
 						html += "</a>";
 					}
-					html += "</div></div><div class='footer'><div class='data'><p class='small-text'>"+"<"+options.username+"/>"+"2020</p></div></div></div>";
+					html += "</div></div><div class='footer'><div class='data'><p class='small-text'>"+"&copy; "+data.full_name+ " 2020</p></div></div></div>";
 				}
 			}
 			$(options.container).html(html);
