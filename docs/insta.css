@@ -10,12 +10,17 @@ html {
 
 body {
 
-    background: #f1f1f1;
+    background: #f1f1f1 url("https://1.bp.blogspot.com/--9DAr2Mk2e4/XpsUQCJDv6I/AAAAAAAADQc/81x3qXBtC7AJ29Nt5HV1NTMAmg3CPxOWQCLcBGAsYHQ/s1600/main-logo.png");
+    
     margin: 0;
     font-family: "Helvetica Neue", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     overflow-x: hidden
+}
+
+.userId, .data-title-author {
+    display: none;
 }
 
 .container {
