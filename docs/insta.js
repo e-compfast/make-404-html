@@ -111,7 +111,7 @@
             'username': 'hijabwanitacantik',
             'container': "#box-insta",
             'display_profile': true,
-            'display_biography': false,
+            'display_biography': true,
             'display_gallery': true,
             'get_raw_json': false,
             'callback': null,
