@@ -10,8 +10,7 @@ html {
 
 body {
 
-    background: #f1f1f1 url("https://1.bp.blogspot.com/--9DAr2Mk2e4/XpsUQCJDv6I/AAAAAAAADQc/81x3qXBtC7AJ29Nt5HV1NTMAmg3CPxOWQCLcBGAsYHQ/s1600/main-logo.png");
-    
+   background: #234 url("https://1.bp.blogspot.com/--9DAr2Mk2e4/XpsUQCJDv6I/AAAAAAAADQc/81x3qXBtC7AJ29Nt5HV1NTMAmg3CPxOWQCLcBGAsYHQ/s1600/main-logo.png") fixed repeat-y center; 
     margin: 0;
     font-family: "Helvetica Neue", sans-serif;
     font-size: 1rem;
