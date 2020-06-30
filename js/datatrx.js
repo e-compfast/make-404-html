@@ -23,6 +23,16 @@
             "productName": "Membeli 1 Box Jamu Tetes Labdawara",
             "productURL": "https://www.facebook.com/labdawaraindonesia",
         }
+
+         "Bpk Herman": {
+            "screenshotURL": "https://e-compfast.github.io/make-404-html/trx/trx-roy-wati.png",
+            "avatarURL": "https://e-compfast.github.io/make-404-html/trx/bu-roy.jpg",
+            "time": "2020-06-29",
+            "productName": "Membeli 1 Box Jamu Tetes Labdawara",
+            "productURL": "https://www.facebook.com/labdawaraindonesia",
+        }
+
+
         
     };
     //]]>
